@@ -3,6 +3,8 @@ tasks:
   - init: pip install -r requirements.txt # runs during prebuild
     command: python app.py
     openIn: bottom
+  - openMode: split-right
+    command: ls -al
   
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
