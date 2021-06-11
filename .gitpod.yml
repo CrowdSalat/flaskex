@@ -4,9 +4,7 @@ tasks:
     command: python app.py
     openIn: bottom
   - openMode: split-right
-    command: echo SplitTerminal
-  - openIn: left
-    command: echo LeftPanelTerminal
+    command: ls -al
   
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
